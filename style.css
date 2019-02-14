@@ -49,6 +49,23 @@ body{
   opacity:.5;
 }
 
+.popup{
+  position:fixed;
+  top:40px;
+  left:50px;
+  background-color: #fd79a8;
+  padding:20px;
+  color:#FFF;
+  border-radius:5px;
+  border: 2px solid #FFF;
+  opacity:.2;
+  z-index:100;
+}
+
+.popup:hover{
+  opacity:1;
+}
+
 .toggleKey:hover{
   cursor:pointer;
   background-color:#f23031;
